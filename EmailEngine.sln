@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailEngine", "EmailEngine\EmailEngine.csproj", "{843C4676-1520-4FF9-91BC-BC507A6F0369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailEngine.Test", "EmailEngine.Test\EmailEngine.Test.csproj", "{FC6B0066-AA04-4CD6-A25C-699F4B1BA109}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{45941BB5-2525-499F-98CE-D427A6D99551}"
+	ProjectSection(SolutionItems) = preProject
+		EmailEngine.vsmdi = EmailEngine.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = EmailEngine.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{843C4676-1520-4FF9-91BC-BC507A6F0369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843C4676-1520-4FF9-91BC-BC507A6F0369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843C4676-1520-4FF9-91BC-BC507A6F0369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843C4676-1520-4FF9-91BC-BC507A6F0369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6B0066-AA04-4CD6-A25C-699F4B1BA109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6B0066-AA04-4CD6-A25C-699F4B1BA109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6B0066-AA04-4CD6-A25C-699F4B1BA109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6B0066-AA04-4CD6-A25C-699F4B1BA109}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
